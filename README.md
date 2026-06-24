@@ -59,12 +59,8 @@ PracticalLinearAlgebra/
 ├── Chapter_11.ipynb
 ├── Chapter_12.ipynb
 ├── Chapter_13.ipynb
-├── README.md
 │
-└── assets/
-```
-
----
+└── README.md
 
 ## Chapter Summary
 
