@@ -1,27 +1,15 @@
-# Daily-Task-2-ML
 # Practical Linear Algebra (O'Reilly)
 
 ## Code Reproduction and Theoretical Deep-Dive
 
-### Repository Overview
-
-This repository contains a comprehensive reproduction and theoretical exploration of all chapters from the book **Practical Linear Algebra (O'Reilly)**. The project was created as part of the **Enrichment for Machine Learning and Deep Learning Classes** individual assignment.
-
-Each chapter has been reproduced in the form of Jupyter Notebooks containing:
-
-* Detailed chapter summaries
-* Reproduced code examples
-* Step-by-step explanations of important code segments
-* Mathematical interpretations
-* Practical machine learning relevance
-* Additional insights and learning notes
-* Chapter conclusions and key takeaways
-
-The purpose of this repository is not only to reproduce the examples from the book but also to deepen understanding of the mathematical foundations that support modern Machine Learning, Deep Learning, Computer Vision, Data Science, and Artificial Intelligence systems.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Linear Algebra](https://img.shields.io/badge/Linear-Algebra-red)
 
 ---
 
-## Student Information
+# Author Information
 
 **Name:** Fadhilah Dwi Istiani
 **Student ID (NIM):** 1103223141
@@ -30,18 +18,39 @@ The purpose of this repository is not only to reproduce the examples from the bo
 
 ---
 
-## Book Information
+# Repository Description
 
-**Title:** Practical Linear Algebra
-**Publisher:** O'Reilly Media
+This repository contains a complete chapter-by-chapter reproduction and theoretical exploration of the book **Practical Linear Algebra (O'Reilly)**.
 
-Linear Algebra is one of the most important mathematical foundations in Machine Learning and Deep Learning. Concepts such as vectors, matrices, matrix decomposition, dimensionality reduction, optimization, and neural network computation are all built upon linear algebra principles.
+The project was developed as part of the **Enrichment for Machine Learning and Deep Learning Classes** individual assignment. Each notebook reproduces important code examples from the book while providing additional theoretical explanations, mathematical interpretations, implementation notes, and machine learning applications.
 
-This repository explores these concepts chapter-by-chapter through theoretical explanations and executable Python implementations.
+The goal of this repository is to bridge the gap between mathematical theory and practical machine learning implementation by studying linear algebra concepts through executable Python notebooks.
 
 ---
 
-## Repository Structure
+# Assignment Objectives
+
+The objectives of this project are:
+
+* Reproduce code examples from every chapter
+* Understand the mathematical foundations behind each concept
+* Explain theoretical concepts in a structured manner
+* Connect linear algebra topics with machine learning applications
+* Develop practical implementation skills using Python and NumPy
+
+---
+
+# Technologies Used
+
+* Python
+* NumPy
+* SciPy
+* Matplotlib
+* Jupyter Notebook
+
+---
+
+# Repository Structure
 
 ```text
 PracticalLinearAlgebra/
@@ -61,100 +70,272 @@ PracticalLinearAlgebra/
 ├── Chapter_13.ipynb
 │
 └── README.md
-
-## Chapter Summary
-
-### Chapter 1 – Introduction to Vectors
-
-This chapter introduces vectors as the fundamental building blocks of linear algebra. Topics include vector notation, vector operations, geometric interpretation, vector length, normalization, and practical applications in data science.
-
-### Chapter 2 – Vector Operations
-
-Focuses on vector arithmetic including addition, subtraction, scalar multiplication, dot products, projections, orthogonality, and similarity measures commonly used in machine learning.
-
-### Chapter 3 – Matrices
-
-Introduces matrices and their role in representing datasets and transformations. Topics include matrix construction, indexing, matrix arithmetic, and matrix-vector multiplication.
-
-### Chapter 4 – Matrix Operations
-
-Explores matrix multiplication, transpose operations, matrix inverses, identity matrices, and computational properties relevant to machine learning algorithms.
-
-### Chapter 5 – Systems of Linear Equations
-
-Covers solving linear systems using algebraic and matrix-based approaches. Discusses Gaussian elimination and practical problem-solving techniques.
-
-### Chapter 6 – Matrix Determinants
-
-Explains determinants, their geometric meaning, and their importance in determining matrix invertibility and transformation properties.
-
-### Chapter 7 – Matrix Inverses
-
-Discusses inverse matrices, methods for computing inverses, and applications in solving systems of equations and optimization problems.
-
-### Chapter 8 – Eigenvalues and Eigenvectors
-
-Introduces eigenvalues and eigenvectors, which are critical concepts for dimensionality reduction, principal component analysis (PCA), and many machine learning techniques.
-
-### Chapter 9 – Matrix Decomposition
-
-Explores matrix factorization techniques such as eigendecomposition and singular value decomposition (SVD), which form the basis of many modern ML algorithms.
-
-### Chapter 10 – Applications in Machine Learning
-
-Demonstrates how linear algebra concepts are applied in practical machine learning workflows including PCA, optimization, feature extraction, and representation learning.
+```
 
 ---
 
-## Learning Outcomes
+# Chapter Overview
 
-After completing this repository, readers should be able to:
+## Chapter 1 — Introduction to Vectors
 
-* Understand core linear algebra concepts
-* Perform vector and matrix operations
+This chapter introduces vectors as the fundamental building blocks of linear algebra. It explains vector notation, vector representation, magnitude, direction, normalization, and geometric interpretation.
+
+### Main Topics
+
+* Vector notation
+* Vector magnitude
+* Unit vectors
+* Vector normalization
+* Geometric interpretation
+
+### Machine Learning Relevance
+
+Vectors are used to represent features, embeddings, images, documents, and numerical data in machine learning systems.
+
+---
+
+## Chapter 2 — Vector Operations
+
+This chapter focuses on operations performed on vectors and explains how vector arithmetic forms the basis of many machine learning computations.
+
+### Main Topics
+
+* Vector addition
+* Vector subtraction
+* Scalar multiplication
+* Dot products
+* Orthogonality
+* Vector projections
+
+### Machine Learning Relevance
+
+Dot products are used extensively in regression, neural networks, recommendation systems, and similarity computations.
+
+---
+
+## Chapter 3 — Matrices
+
+Matrices are introduced as structured collections of vectors and are used to represent datasets and transformations.
+
+### Main Topics
+
+* Matrix notation
+* Matrix construction
+* Matrix indexing
+* Matrix-vector multiplication
+
+### Machine Learning Relevance
+
+Most datasets in machine learning are represented as matrices where rows correspond to samples and columns correspond to features.
+
+---
+
+## Chapter 4 — Matrix Operations
+
+This chapter explores mathematical operations involving matrices and their computational significance.
+
+### Main Topics
+
+* Matrix multiplication
+* Matrix transpose
+* Identity matrices
+* Matrix properties
+
+### Machine Learning Relevance
+
+Matrix multiplication is a core operation in neural networks, optimization algorithms, and linear models.
+
+---
+
+## Chapter 5 — Systems of Linear Equations
+
+Linear systems provide the mathematical foundation for many optimization and estimation problems.
+
+### Main Topics
+
+* Linear equations
+* Matrix representation
+* Gaussian elimination
+* Solving linear systems
+
+### Machine Learning Relevance
+
+Many regression and optimization problems can be expressed as systems of linear equations.
+
+---
+
+## Chapter 6 — Matrix Determinants
+
+This chapter explains determinants and their role in understanding matrix properties.
+
+### Main Topics
+
+* Determinants
+* Matrix invertibility
+* Geometric interpretation
+
+### Machine Learning Relevance
+
+Determinants are used in covariance analysis, probability distributions, and matrix decompositions.
+
+---
+
+## Chapter 7 — Matrix Inverses
+
+This chapter focuses on inverse matrices and their practical applications.
+
+### Main Topics
+
+* Matrix inverses
+* Computing inverses
+* Solving systems with inverses
+
+### Machine Learning Relevance
+
+Inverse matrices appear in linear regression, optimization, and statistical estimation.
+
+---
+
+## Chapter 8 — Eigenvalues and Eigenvectors
+
+One of the most important chapters in linear algebra.
+
+### Main Topics
+
+* Eigenvalues
+* Eigenvectors
+* Spectral interpretation
+* Geometric meaning
+
+### Machine Learning Relevance
+
+PCA, dimensionality reduction, clustering, and many advanced ML methods rely on eigen-analysis.
+
+---
+
+## Chapter 9 — Matrix Decomposition
+
+This chapter introduces matrix factorization techniques.
+
+### Main Topics
+
+* Eigendecomposition
+* Singular Value Decomposition (SVD)
+* Matrix factorization
+
+### Machine Learning Relevance
+
+SVD is widely used in recommendation systems, PCA, latent semantic analysis, and compression.
+
+---
+
+## Chapter 10 — Orthogonality and Projections
+
+Orthogonality is a fundamental concept used throughout machine learning and statistics.
+
+### Main Topics
+
+* Orthogonal vectors
+* Orthogonal matrices
+* Projections
+* Least squares concepts
+
+### Machine Learning Relevance
+
+Projection techniques are heavily used in dimensionality reduction and regression.
+
+---
+
+## Chapter 11 — Linear Transformations
+
+Linear transformations describe how data can be rotated, scaled, translated, and projected.
+
+### Main Topics
+
+* Transformation matrices
+* Rotations
+* Scaling transformations
+* Reflection operations
+
+### Machine Learning Relevance
+
+Image processing and feature engineering frequently use linear transformations.
+
+---
+
+## Chapter 12 — Numerical Linear Algebra
+
+This chapter discusses computational considerations when implementing linear algebra algorithms.
+
+### Main Topics
+
+* Numerical stability
+* Floating-point precision
+* Computational complexity
+
+### Machine Learning Relevance
+
+Efficient computation is critical for large-scale machine learning systems.
+
+---
+
+## Chapter 13 — Applications of Linear Algebra in Machine Learning
+
+The final chapter integrates all previous concepts into practical machine learning applications.
+
+### Main Topics
+
+* PCA
+* Regression
+* Optimization
+* Matrix factorization
+* Feature representation
+
+### Machine Learning Relevance
+
+Demonstrates how linear algebra forms the mathematical backbone of modern machine learning and artificial intelligence systems.
+
+---
+
+# Key Learning Outcomes
+
+After completing all notebooks, readers should be able to:
+
+* Understand vector and matrix mathematics
+* Perform matrix operations using Python
 * Solve systems of linear equations
-* Interpret eigenvalues and eigenvectors
-* Understand matrix decompositions
-* Apply linear algebra concepts to machine learning problems
-* Connect mathematical theory with practical implementation
+* Understand eigenvalues and eigenvectors
+* Apply matrix decompositions
+* Interpret linear transformations
+* Connect mathematical theory with machine learning practice
+* Implement concepts using NumPy and scientific computing libraries
 
 ---
 
-## Technologies Used
+# Why Linear Algebra Matters for Machine Learning
 
-* Python
-* NumPy
-* SciPy
-* Matplotlib
-* Jupyter Notebook
-
----
-
-## Relevance to Machine Learning
-
-The concepts discussed in this repository directly support:
+Linear Algebra is one of the most important mathematical foundations of:
 
 * Machine Learning
 * Deep Learning
 * Computer Vision
 * Natural Language Processing
-* Data Analytics
-* Optimization
+* Recommendation Systems
 * Artificial Intelligence
 
-Understanding linear algebra is essential because virtually every machine learning model performs computations involving vectors, matrices, and matrix transformations.
+Virtually every machine learning model performs computations involving vectors, matrices, matrix decompositions, or linear transformations.
 
 ---
 
-## Conclusion
+# Conclusion
 
-This repository serves as a complete chapter-by-chapter theoretical review and code reproduction of **Practical Linear Algebra (O'Reilly)**. By combining mathematical explanations with practical coding examples, it provides a bridge between theoretical understanding and real-world machine learning implementation.
+This repository represents a complete theoretical and practical exploration of **Practical Linear Algebra (O'Reilly)** through code reproduction and structured explanations.
 
-The work was prepared as part of an academic enrichment assignment to strengthen foundational mathematical skills required in modern Artificial Intelligence and Machine Learning development.
+By combining mathematical intuition, Python implementation, and machine learning applications, this project provides a strong foundation for understanding the mathematical principles behind modern AI systems.
 
 ---
 
-### Prepared By
+# Prepared By
 
 **Fadhilah Dwi Istiani**
 **1103223141**
